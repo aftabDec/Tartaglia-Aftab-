@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.twitter-tweet {
+  background-color: #000 !important; /* Forces pitch black */
+  color: #fff !important;
+}
