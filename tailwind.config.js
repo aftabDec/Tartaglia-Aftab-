@@ -1,11 +1,15 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
+import daisyui from "daisyui"; // Import the daisyui plugin
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  extend: {
-    colors: {
-      "dark-brown": "#140500",
-      brown: "#835c3b",
+  theme: {
+    extend: {
+      colors: {
+        "dark-brown": "#140500",
+        brown: "#835c3b",
+      },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [daisyui], // Add the plugin using the imported variable
 };
