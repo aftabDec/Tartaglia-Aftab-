@@ -7,5 +7,4 @@ export default {
       brown: "#835c3b",
     },
   },
-  plugins: [require("daisyui")],
 };
