@@ -1,6 +1,4 @@
 // tailwind.config.js
-import daisyui from "daisyui"; // Import the daisyui plugin
-
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -11,5 +9,5 @@ export default {
       },
     },
   },
-  plugins: [daisyui], // Add the plugin using the imported variable
+  plugins: [], // Remove daisyui from here
 };
